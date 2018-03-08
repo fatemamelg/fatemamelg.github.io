@@ -1,0 +1,108 @@
+body {
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* Header styling */
+
+header {
+    height: auto;
+    padding: 10px;
+    background-color: gold;
+    color: black;
+}
+
+header .row,
+footer .row {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-weight: 700;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header li {
+    padding: 0 20px;
+    margin: 0;   
+    list-style: none;
+}
+
+header a {
+    font-weight: 550;
+    color: black;
+}
+
+header a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+/* Small screen styles */
+section {
+    margin: 10px;
+}
+
+/* 2nd section style */
+
+section {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.parContent {
+    padding: 30px 0;
+}
+
+img {
+    resize: both;
+    margin-bottom: 10px;
+}
+
+.twitter{
+    background-color: RGBA(0,255,255, 0.3);
+}
+
+
+/* Footer style */
+
+footer {
+    margin-top: 20%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: gold;
+    color: black;
+}
+
+footer a {
+    margin: 5px;
+    color: black;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 50px;
+}
+
+footer a:hover {
+    color: white;
+}
+
+.fa-twitter:hover {color: aqua;}
+
+.fa-github:hover {color: purple;}
+
+.fa-linkedin:hover {color: blue;}
+
+.fa-tumblr:hover {color: darkblue;}
+
+.fa-google-plus:hover {color: red;}
