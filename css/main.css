@@ -1,5 +1,6 @@
 body {
     font-family: "Lucida Console", Monaco, monospace;
+    background-image: url(../img/background-geometry-shapes.png);
 }
 
 p {
@@ -56,8 +57,10 @@ section {
 /* 2nd section style */
 
 section {
+    background-color: white;
     text-align: center;
-    padding-top: 30px;
+    padding: 15px;
+    margin: 50px 30px;
 }
 
 .parContent {
@@ -70,7 +73,8 @@ img {
 }
 
 .twitter{
-    background-color: RGBA(0,255,255, 0.3);
+    /*background-color: RGBA(0,255,255, 1);*/
+    background-color: white;
 }
 
 
