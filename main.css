@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: "Lucida Console", Monaco, monospace;
+    /* background-image: linear-gradient(to right, rgba(99,71,77,0.5), rgba(170,118,124,1)); */
+    /* background-image: linear-gradient(to right, rgba(254,193,150,0.5), rgba(255,166,134,1)); */
+
+}
+
+nav {
+    /* background: #FFE4E1; */
+    background: transparent;
+    
+}
+
+.intro {
+    width: 100%;
+    
+}
+
+.content {
+
+}
+
+/*
+.background {
+    background-image: linear-gradient(45deg, rgba(99,71,77,0.5), rgba(170,118,124,1));
+    transform: skewY(5deg);
+    height: 350px;
+}
+*/
+
+.social-buttons {
+    bottom: 0%;
+}
+
+.intro h1{
+    padding: 50px;
+    text-align: center;
+    color: black;
+}
+
+.intro h3 {
+    text-align: center;
+}
+
+.intro div {
+    text-align: center;
+    color: black;
+}
+
+main {
+    min-height: 50vh;
+    
+}
+
+
+.about {
+    
+}
+
+footer {
+    background:#271033;
+    color: white;
+    padding: 20px; 
+    width: 100%;
+    z-index: 1;
+}
+
+h6 {
+    font-weight: bold;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color:indianred;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+.follow a {
+    margin: 15px 10px 10px 10px;
+}
+
+.follow a:hover {
+    color:indianred;
+}
+
+
+/* .fa-github:hover {color: purple;}
+
+.fa-linkedin:hover {color: blue;}
+
+.fa-tumblr:hover {color: darkblue;} */
